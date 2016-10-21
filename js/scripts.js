@@ -2,7 +2,7 @@
 $('h1').lettering();
 
 // Intialize Backstretch
-$.backstretch('/img/bg.jpg');
+$.backstretch('http://wallpapercave.com/wp/jYqqRWg.jpg');
 
 // Intialize Masonry
 $('article').masonry({

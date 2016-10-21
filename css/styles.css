@@ -6,7 +6,7 @@ YOUR STYLES
 * { box-sizing: border-box; }
 
 body {
-    background-image: "https://github.com/ehuesca5/nameplate-gh-pages/blob/gh-pages/img/bg.jpg?raw=true";
+    background-image: url("http://www.planwallpaper.com/static/images/download-blue-background-images-hd-art_eMK1Y4s.jpg");
 }
 section {
   /* Fallback: Floated in No JS */
