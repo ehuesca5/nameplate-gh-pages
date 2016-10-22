@@ -1,9 +1,8 @@
 // Intialize Lettering JS
-$('h1').lettering();
+$('').lettering();
 
 // Intialize Backstretch
-$.backstretch('http://wallpapercave.com/wp/jYqqRWg.jpg');
-
+$.backstretch('http://img.wallpaperfolder.com/f/45CDD835DF71/08-beautiful-space-nebula-nebulae-outer.jpg')
 // Intialize Masonry
 $('article').masonry({
 	itemSelector: 'section',

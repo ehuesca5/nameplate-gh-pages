@@ -6,12 +6,13 @@ YOUR STYLES
 * { box-sizing: border-box; }
 
 body {
-    background-image: url("http://www.planwallpaper.com/static/images/download-blue-background-images-hd-art_eMK1Y4s.jpg");
+    background-image: url("http://www.planwallpaper.com/static/images/cool-wallpapers-hd-8087-8418-hd-wallpapers.jpg");
 }
 section {
   /* Fallback: Floated in No JS */
   float: left;
   padding: 1em;
+  margin: 0;
 }
 
 /* clearfix */
@@ -27,11 +28,39 @@ article {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 10em;
     text-align: center;
     text-transform: uppercase;
+    color: white;
+    font-family: 'Bungee', cursive;
 }
-
+h3 {
+    font-size: 1.5em;
+    font-family: 'Bungee', cursive;
+}
+p {
+    font-family: 'Crafty Girls' , cursive;
+    font-size: 1.3em;
+}
+li {
+    float: right;
+    margin-left: 30px;
+    animation-name: rollIn;
+    animation-duration: 4s;
+}
+.img {
+    width: 100px;
+    height: 90px;
+    padding: 0px;
+    margin-left: -10px;
+    background: white;
+    border: 2px solid black;
+}
+.me {
+    width: 440px;
+    height: 550px;
+    border: 10px solid black;
+}
 
 /* Masonry Styling */
 section {
@@ -51,10 +80,12 @@ section {
 
 .med {
   height: 400px;
+    width: 500px;
 }
 
 .short {
-  height: 200px;
+  height: 270px;
+    width: 500px;
 }
 
 /********************
