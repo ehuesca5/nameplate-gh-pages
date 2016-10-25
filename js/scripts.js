@@ -1,5 +1,5 @@
 // Intialize Lettering JS
-$('').lettering();
+$('.web').lettering();
 
 // Intialize Backstretch
 $.backstretch('http://img.wallpaperfolder.com/f/45CDD835DF71/08-beautiful-space-nebula-nebulae-outer.jpg')
